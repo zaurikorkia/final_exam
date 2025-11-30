@@ -1,0 +1,9 @@
+The message is signed by Alice's private RSA key. 
+When Bob receives the email, he verifies the signature using Alice's public key.
+
+If the signature is valid, it shows that:
+1) The message really came from the owner of the private key (authentication of the sender).
+2) The message was not changed after it was signed (integrity), because any change would make the signature check fail.
+
+In this simulation, the file signed_message.asc contains the digital signature of original_message.txt.
+The program uses the public key in public.asc to verify the signature before decrypting the message.
