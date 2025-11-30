@@ -1,0 +1,11 @@
+How TLS Provides Confidentiality and Integrity
+
+Confidentiality:
+TLS protects data by encrypting it with symmetric encryption algorithms such as AES.
+This ensures that even if the traffic is intercepted, attackers cannot read the data.
+
+Integrity:
+TLS ensures data integrity by using cryptographic hashing and authentication mechanisms.
+If any data is altered during transmission, the connection will detect the change.
+
+In summary, TLS keeps data private and prevents unauthorized modification.
